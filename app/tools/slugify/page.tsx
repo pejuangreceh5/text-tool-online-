@@ -1,0 +1,1 @@
+export default function SlugifyTool() {/* Slugify text */}
