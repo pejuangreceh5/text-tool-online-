@@ -1,0 +1,1 @@
+export default function LoremTool() {/* Lorem Ipsum Generator */}
