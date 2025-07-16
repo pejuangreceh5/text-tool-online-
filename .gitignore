@@ -1,24 +1,35 @@
-# Node modules
+# node_modules dan log
 node_modules/
-
-# Build output
-.next/
-out/
-
-# Logs
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
+pnpm-debug.log*
+
+# Output build
+.next/
+out/
+dist/
+
+# Testing
+coverage/
 
 # Environment variables
+.env
 .env.local
 .env.development.local
 .env.test.local
 .env.production.local
 
-# OS
+# Editor/OS specific
+.vscode/
+.idea/
 .DS_Store
 Thumbs.db
 
-# Vercel
-.vercel/
+# Tailwind CSS JIT cache
+.tailwind-cache/
+
+# Optional: lock file jika pakai npm/yarn/pnpm salah satu
+package-lock.json
+# yarn.lock
+# pnpm-lock.yaml
